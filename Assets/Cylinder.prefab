@@ -398,6 +398,7 @@ GameObject:
   - component: {fileID: 4231237480496285734}
   - component: {fileID: 1507427495901452848}
   - component: {fileID: 8986607042317328221}
+  - component: {fileID: 1187720418912509621}
   m_Layer: 0
   m_Name: Tip
   m_TagString: Untagged
@@ -543,7 +544,8 @@ MonoBehaviour:
   ImpactEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e1ce41f9c1127054992c1d20b84ca019,
+      type: 2}
   CooldownSeconds: 0.2
 --- !u!114 &8986607042317328221
 MonoBehaviour:
@@ -569,6 +571,33 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!54 &1187720418912509621
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3804490505643579646}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3882299412229379938
 GameObject:
   m_ObjectHideFlags: 0
