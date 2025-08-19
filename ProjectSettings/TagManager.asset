@@ -8,6 +8,7 @@ TagManager:
   - Paintbrush
   - StylusTip
   - Door
+  - Gas
   layers:
   - Default
   - TransparentFX
