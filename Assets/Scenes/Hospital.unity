@@ -11994,8 +11994,8 @@ Transform:
   m_GameObject: {fileID: 521730642}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.9816613, y: 4.8201, z: 32.980145}
+  m_LocalPosition: {x: -0.0214, y: 0, z: 0}
+  m_LocalScale: {x: 5.939192, y: 4.8201, z: 32.980145}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1878327155}
@@ -42641,6 +42641,9 @@ GameObject:
   - component: {fileID: 1991639129}
   - component: {fileID: 1991639128}
   - component: {fileID: 1991639130}
+  - component: {fileID: 1991639132}
+  - component: {fileID: 1991639131}
+  - component: {fileID: 1991639133}
   m_Layer: 0
   m_Name: AkCaneHitSound
   m_TagString: Untagged
@@ -42656,12 +42659,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991639126}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.690561, y: 17.343084, z: 107.83747}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.6631024, y: 12.139679, z: 3.4873018}
+  m_LocalScale: {x: 1.0089188, y: 1.0089189, z: 1.0089188}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 952923609800998671}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1991639128
 Rigidbody:
@@ -42732,6 +42735,70 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: e1ce41f9c1127054992c1d20b84ca019,
       type: 2}
   CooldownSeconds: 0.2
+--- !u!65 &1991639131
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991639126}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1991639132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991639126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe9b8a6e0a5abd468503e04b02e21ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Collider: {fileID: 0}
+--- !u!114 &1991639133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991639126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c79f3c952e905742a7eaa6376fe2bf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e1ce41f9c1127054992c1d20b84ca019,
+      type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!1001 &1992726287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45486,6 +45553,7 @@ Transform:
   m_Children:
   - {fileID: 128365820}
   - {fileID: 1174936455}
+  - {fileID: 1991639127}
   m_Father: {fileID: 7586597887723392172}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1020692783032252930
@@ -50937,7 +51005,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: e5342f73753d8b544886b4f32cdd8814,
       type: 2}
-  StepDistance: 1.8
+  StepDistance: 1
 --- !u!4 &7906998424464582861
 Transform:
   m_ObjectHideFlags: 0
@@ -52015,4 +52083,3 @@ SceneRoots:
   - {fileID: 1878327155}
   - {fileID: 980316776}
   - {fileID: 1454814993}
-  - {fileID: 1991639127}
