@@ -7,6 +7,7 @@ TagManager:
   - UselessBox
   - Paintbrush
   - StylusTip
+  - Door
   layers:
   - Default
   - TransparentFX
