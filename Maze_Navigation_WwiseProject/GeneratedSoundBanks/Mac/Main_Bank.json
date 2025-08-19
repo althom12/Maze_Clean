@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{74BBCA36-B18F-4BBF-A9BC-09C14BE267F4}",
     "Language": "SFX",
-    "Hash": "{78B99FA0-FEC5-3BC6-2C75-7D9789783AA2}",
+    "Hash": "{A4A685F7-BD18-4ED1-7001-53D839D854A4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Bank",
     "ShortName": "Main_Bank",
     "Path": "Main_Bank.bnk",
@@ -24,6 +24,14 @@
       "CachePath": "71/{71DAA7A0-8FF4-113D-E1FC-D83F32ED7AA7}.wem"
      },
      {
+      "Id": "290178721",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsRunning.9.wav",
+      "CachePath": "BC/{BC81D982-BDDE-6B9A-8E52-D7222CF7320D}.wem"
+     },
+     {
       "Id": "304588199",
       "Language": "SFX",
       "Streaming": "false",
@@ -32,12 +40,44 @@
       "CachePath": "CE/{CE5E529E-A398-44F5-B358-D2B4B5B24D54}.wem"
      },
      {
+      "Id": "430990629",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsRunning.5.wav",
+      "CachePath": "07/{07296BF0-A384-F95E-EF6E-9E5B7F1CD324}.wem"
+     },
+     {
+      "Id": "448615811",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsRunning.7.wav",
+      "CachePath": "4F/{4FB8CF6F-3A2F-F76C-3D1A-2816C4664F3F}.wem"
+     },
+     {
+      "Id": "459500488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsRunning.11.wav",
+      "CachePath": "E6/{E6676C9F-0799-E523-BAEF-F50CEE40BDBC}.wem"
+     },
+     {
       "Id": "530005605",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "BOOM Library IR - R&S\\Submarine1_Bunk_9m_Ambix_o3.wav",
       "CachePath": "83/{83A6E761-9E26-4076-C3E6-5A76CEF3D12D}.wem"
+     },
+     {
+      "Id": "531123315",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootstepsRunning.3.wav",
+      "CachePath": "F0/{F0C2DD10-0A1E-2542-B9FE-E13DFED5A4CA}.wem"
      },
      {
       "Id": "571434554",
@@ -168,6 +208,32 @@
         "GUID": "{CF119142-9DCD-46EF-889F-838CC32889A0}"
        }
       ]
+     },
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{4F9F7D70-731A-4ED6-92C2-36CA9C4F711D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21095239",
+      "DurationMax": "0.29165533",
+      "MediaRefs": [
+       {
+        "Id": "290178721"
+       },
+       {
+        "Id": "430990629"
+       },
+       {
+        "Id": "448615811"
+       },
+       {
+        "Id": "459500488"
+       },
+       {
+        "Id": "531123315"
+       }
+      ]
      }
     ],
     "Busses": [
@@ -260,6 +326,6 @@
     ]
    }
   ],
-  "FileHash": "{C05B3F50-CAC8-1901-B96E-ACF7C9B80845}"
+  "FileHash": "{F741266F-1B39-25D3-C323-1D09EABC5249}"
  }
 }
