@@ -559,6 +559,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -611,6 +621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3839,6 +3850,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3906,6 +3927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4973,6 +4995,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5025,6 +5057,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7309,6 +7342,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -7376,6 +7414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9359,10 +9398,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 2788427611123585773, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
@@ -9431,6 +9475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -11191,6 +11236,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -11258,6 +11313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -13274,6 +13330,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -13341,6 +13407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -13908,6 +13975,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -13975,6 +14047,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -14030,6 +14103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Ballons1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
       objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
@@ -14098,6 +14176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -15723,6 +15802,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -15790,6 +15879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
@@ -18134,13 +18224,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5135799684436043906, guid: 880e960172a03574bb84dd525357d009,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7754489750716015155, guid: 880e960172a03574bb84dd525357d009,
         type: 3}
       propertyPath: m_Name
       value: SM_Ballons2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7754489750716015155, guid: 880e960172a03574bb84dd525357d009,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7490892245941038140, guid: 880e960172a03574bb84dd525357d009, type: 3}
+    - {fileID: 1142715051816550963, guid: 880e960172a03574bb84dd525357d009, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -19481,6 +19582,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -19548,6 +19659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -19570,6 +19682,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Ballons1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
       objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
@@ -19638,6 +19755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -22170,6 +22288,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -22237,6 +22360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -22355,6 +22479,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -22422,6 +22551,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -23795,6 +23925,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -23862,6 +24002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -23884,6 +24025,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Ballons3 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
@@ -23937,6 +24088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -27221,6 +27373,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -27288,6 +27445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -28362,6 +28520,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28414,6 +28582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -28818,6 +28987,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28870,6 +29049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -29078,6 +29258,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -29145,6 +29330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -29740,10 +29926,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 2788427611123585773, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
@@ -29812,6 +30003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -30979,6 +31171,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31031,6 +31233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -31195,10 +31398,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 2788427611123585773, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
@@ -31267,6 +31475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -32390,13 +32599,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5135799684436043906, guid: 880e960172a03574bb84dd525357d009,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7754489750716015155, guid: 880e960172a03574bb84dd525357d009,
         type: 3}
       propertyPath: m_Name
       value: SM_Ballons2
       objectReference: {fileID: 0}
+    - target: {fileID: 7754489750716015155, guid: 880e960172a03574bb84dd525357d009,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7490892245941038140, guid: 880e960172a03574bb84dd525357d009, type: 3}
+    - {fileID: 1142715051816550963, guid: 880e960172a03574bb84dd525357d009, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -34003,6 +34223,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -34070,6 +34295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -34872,7 +35098,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1663426200
 Transform:
   m_ObjectHideFlags: 0
@@ -36628,7 +36854,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1764231005
 Transform:
   m_ObjectHideFlags: 0
@@ -38199,6 +38425,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -38266,6 +38502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -38650,6 +38887,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -38717,6 +38964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -40605,6 +40853,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3643348011110461661, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648339440184733859, guid: 802fb95eae923e44f893b96bb636fd9c,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9129171111461206653, guid: 802fb95eae923e44f893b96bb636fd9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40657,6 +40915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8801012453513861895, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
+    - {fileID: 1497043327979173117, guid: 802fb95eae923e44f893b96bb636fd9c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -41042,6 +41301,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 3762897235538092767, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -41109,6 +41373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -41391,6 +41656,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Ballons1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 530188344895411210, guid: a4a357552d08a574b99a2150850845eb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gas
+      objectReference: {fileID: 0}
     - target: {fileID: 2788427611123585773, guid: a4a357552d08a574b99a2150850845eb,
         type: 3}
       propertyPath: m_UseGravity
@@ -41463,6 +41733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 9156289042232326464, guid: a4a357552d08a574b99a2150850845eb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -49641,7 +49912,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.00061621616, y: 0.00900742, z: 0.018555328}
   m_Center: {x: 1.1641532e-10, y: 0.004503711, z: -4.656614e-10}
@@ -49662,7 +49933,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.00061621616, y: 0.00900742, z: 0.018555328}
   m_Center: {x: 1.1641532e-10, y: 0.004503711, z: -4.656614e-10}
@@ -49683,7 +49954,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.00061621616, y: 0.00900742, z: 0.018555328}
   m_Center: {x: 1.1641532e-10, y: 0.004503711, z: -4.656614e-10}
@@ -49704,7 +49975,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.00061621616, y: 0.00900742, z: 0.018555328}
   m_Center: {x: 1.1641532e-10, y: 0.004503711, z: -4.656614e-10}
@@ -49725,7 +49996,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.00061621616, y: 0.00900742, z: 0.018555328}
   m_Center: {x: 1.1641532e-10, y: 0.004503711, z: -4.656614e-10}
@@ -49746,7 +50017,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.00061621616, y: 0.00900742, z: 0.018555328}
   m_Center: {x: 1.1641532e-10, y: 0.004503711, z: -4.656614e-10}
@@ -49767,7 +50038,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.00061621616, y: 0.00900742, z: 0.018555328}
   m_Center: {x: 1.1641532e-10, y: 0.004503711, z: -4.656614e-10}
