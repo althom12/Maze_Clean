@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{74BBCA36-B18F-4BBF-A9BC-09C14BE267F4}",
     "Language": "SFX",
-    "Hash": "{4902F785-7155-C32D-46C5-6156C44E0175}",
+    "Hash": "{7753FA66-40CA-BD07-8D9D-8F4D912C37D0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Bank",
     "ShortName": "Main_Bank",
     "Path": "Main_Bank.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "BOOM Library IR - F&S\\Alley 03 70m HOA3.wav",
       "CachePath": "71/{71DAA7A0-8FF4-113D-E1FC-D83F32ED7AA7}.wem"
+     },
+     {
+      "Id": "234991394",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal-hit-95-200424.wav",
+      "CachePath": "F7/{F7A44857-B24D-59F2-B7DF-BD7C37F5692D}.wem"
      },
      {
       "Id": "290178721",
@@ -38,6 +46,22 @@
       "Location": "Memory",
       "ShortName": "EcholocationClick.wav",
       "CachePath": "CE/{CE5E529E-A398-44F5-B358-D2B4B5B24D54}.wem"
+     },
+     {
+      "Id": "316045075",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ModularBuzzing.wav",
+      "CachePath": "AD/{AD3ADF17-BA68-1C6A-A5FC-BA4F94573A00}.wem"
+     },
+     {
+      "Id": "409321301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dropping-bag-95101.wav",
+      "CachePath": "2E/{2ED29ACB-2BC7-749E-AAC4-67BC4E1F96FD}.wem"
      },
      {
       "Id": "430990629",
@@ -88,6 +112,14 @@
       "CachePath": "52/{528B7509-D456-A3DD-8B38-1B797921AEAA}.wem"
      },
      {
+      "Id": "1008703685",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "door-creaking-335491.wav",
+      "CachePath": "60/{607FA16B-4DE3-C7E7-27D8-B69B09A28E6E}.wem"
+     },
+     {
       "Id": "1064689600",
       "Language": "SFX",
       "Streaming": "false",
@@ -105,6 +137,14 @@
        "GUID": "{CA9563D1-702B-4B97-94E8-BBB9896939E6}",
        "LibName": "Resonance Audio Renderer",
        "LibId": "6557955"
+      },
+      {
+       "Id": "113070236",
+       "Name": "Flanger (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Environment\\[Effect Slot [0]: (Flanger)]\\Flanger (Custom)",
+       "GUID": "{167512C2-60C3-4D23-9FCA-58A5F2A5238D}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
       },
       {
        "Id": "280566278",
@@ -159,6 +199,14 @@
        ]
       },
       {
+       "Id": "2394809124",
+       "Name": "Very_Slow_Modulation",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Very_Slow_Modulation",
+       "GUID": "{6082F901-3CE1-4D78-8F2D-B2B72CF28085}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
        "Id": "2787981274",
        "Name": "Church4_Gallery_Ambix_o3",
        "ObjectPath": "\\Effects\\BOOM Library IR - R&S - HOA\\BOOM Library IR - R&S\\HOA\\Church Historic 03\\Church4_Gallery_Ambix_o3",
@@ -210,6 +258,32 @@
       ]
      },
      {
+      "Id": "1742799878",
+      "Name": "Play_DoorCreaking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_DoorCreaking",
+      "GUID": "{B4153BDB-7777-44FD-900C-154B42630F23}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6392393",
+      "DurationMax": "2.6392393",
+      "MediaRefs": [
+       {
+        "Id": "1008703685"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "113070236"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "2394809124"
+        }
+       ]
+      }
+     },
+     {
       "Id": "3854155799",
       "Name": "Play_Footsteps",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
@@ -234,6 +308,77 @@
         "Id": "531123315"
        }
       ]
+     },
+     {
+      "Id": "2947295567",
+      "Name": "Play_Impacts",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Impacts",
+      "GUID": "{DCBF613B-467B-4E00-98BE-525CDB102E9C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.41407293",
+      "DurationMax": "0.8581833",
+      "AuxBusRefs": [
+       {
+        "Id": "849258820",
+        "Name": "EarlyReflections",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\EarlyReflections",
+        "GUID": "{CF119142-9DCD-46EF-889F-838CC32889A0}"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3714303081",
+         "Id": "513390133",
+         "GUID": "{277223D1-B06F-4B54-829D-4A324385B2FF}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "409321301"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3714303081",
+         "Id": "2473969246",
+         "GUID": "{61F1EBE5-75CB-4952-A31B-A4F09EEDA37F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "234991394"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2077168841",
+      "Name": "Play_Lights",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lights",
+      "GUID": "{FD182B0D-86EC-4046-A8E6-BC037BAC4821}",
+      "DurationType": "OneShot",
+      "DurationMin": "14.616",
+      "DurationMax": "14.616",
+      "MediaRefs": [
+       {
+        "Id": "316045075"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "113070236"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "2394809124"
+        }
+       ]
+      }
      }
     ],
     "Busses": [
@@ -323,9 +468,31 @@
        ]
       }
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3714303081",
+      "Name": "Surfaces",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces",
+      "GUID": "{A966B558-3575-4764-94A6-9BBF36AA1F79}",
+      "Switches": [
+       {
+        "Id": "513390133",
+        "Name": "Bag",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Bag",
+        "GUID": "{277223D1-B06F-4B54-829D-4A324385B2FF}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Metal",
+        "GUID": "{61F1EBE5-75CB-4952-A31B-A4F09EEDA37F}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{872F0A8C-A810-74FF-AAA8-747BEE204D65}"
+  "FileHash": "{A54E864C-A809-ACE8-1E1C-4C4D0EBBF17D}"
  }
 }

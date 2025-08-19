@@ -1,6 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1742799878	Play_DoorCreaking			\Default Work Unit\Play_DoorCreaking	
+	2077168841	Play_Lights			\Default Work Unit\Play_Lights	
+	2947295567	Play_Impacts			\Default Work Unit\Play_Impacts	
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 	4199643119	Play_CaneClick			\Default Work Unit\Play_CaneClick	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3714303081	Surfaces			\Default Work Unit\Surfaces	
+
+Switch	ID	Name	Switch Group			Notes
+	513390133	Bag	Surfaces			
+	2473969246	Metal	Surfaces			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	52442795	Binaural			\Default Work Unit\Master Audio Bus\Binaural	
@@ -14,21 +24,27 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	101213727	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	113070236	Flanger (Custom)	Wwise Flanger			
 	276072529	Submarine1_Bunk_9m_Ambix_o3	Wwise Convolution Reverb			Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.
 	280566278	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
 	454850457	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
 	836258812	Club1_12m_Ambix_o3	Wwise Convolution Reverb			Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.
 	986540880	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	2394809124	Very_Slow_Modulation	Wwise Tremolo			
 	2787981274	Church4_Gallery_Ambix_o3	Wwise Convolution Reverb			Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.
 	3341797927	Alley_Long_Smooth_70m_HOA3_01	Wwise Convolution Reverb			Impulse response created by BOOM Library. © 2023 BOOM Library. All rights reserved.
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	234991394	Metal	C:\Unity\Maze_Clean\Maze_Navigation_WwiseProject\.cache\F7\{F7A44857-B24D-59F2-B7DF-BD7C37F5692D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Metal		164916
 	290178721	FootstepsRunning_9	C:\Unity\Maze_Clean\Maze_Navigation_WwiseProject\.cache\BC\{BC81D982-BDDE-6B9A-8E52-D7222CF7320D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_9		37420
 	304588199	CaneClick	C:\Unity\Maze_Clean\Maze_Navigation_WwiseProject\.cache\CE\{CE5E529E-A398-44F5-B358-D2B4B5B24D54}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CaneClick		21484
+	316045075	Lights	C:\Unity\Maze_Clean\Maze_Navigation_WwiseProject\.cache\AD\{AD3ADF17-BA68-1C6A-A5FC-BA4F94573A00}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Lights		1403232
+	409321301	Bag	C:\Unity\Maze_Clean\Maze_Navigation_WwiseProject\.cache\2E\{2ED29ACB-2BC7-749E-AAC4-67BC4E1F96FD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Bag		36618
 	430990629	FootstepsRunning_5	C:\Unity\Maze_Clean\Maze_Navigation_WwiseProject\.cache\07\{07296BF0-A384-F95E-EF6E-9E5B7F1CD324}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_5		44308
 	448615811	FootstepsRunning_7	C:\Unity\Maze_Clean\Maze_Navigation_WwiseProject\.cache\4F\{4FB8CF6F-3A2F-F76C-3D1A-2816C4664F3F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_7		51656
 	459500488	FootstepsRunning_11	C:\Unity\Maze_Clean\Maze_Navigation_WwiseProject\.cache\E6\{E6676C9F-0799-E523-BAEF-F50CEE40BDBC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_11		44308
 	531123315	FootstepsRunning_3	C:\Unity\Maze_Clean\Maze_Navigation_WwiseProject\.cache\F0\{F0C2DD10-0A1E-2542-B9FE-E13DFED5A4CA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FootstepsRunning_3		42476
+	1008703685	DoorCreaking	C:\Unity\Maze_Clean\Maze_Navigation_WwiseProject\.cache\60\{607FA16B-4DE3-C7E7-27D8-B69B09A28E6E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\DoorCreaking		465660
 
 Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
 	132888797	Alley_Long_Smooth_70m_HOA3_01	C:\Unity\Maze_Clean\Maze_Navigation_WwiseProject\.cache\AE\{AEA48C80-D4A0-7529-DC96-F80443508109}.wem	Wwise Convolution Reverb (Shared)	\Effects\BOOM Library IR - F&S - HOA3, FOA, Quad & Stereo\BOOM Library IR - F&S\HOA3\Alley Long\Alley_Long_Smooth_70m_HOA3_01	Impulse response created by BOOM Library. © 2023 BOOM Library. All rights reserved.	1650928

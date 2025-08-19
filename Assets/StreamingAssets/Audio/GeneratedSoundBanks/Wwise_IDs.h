@@ -14,7 +14,10 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_CANECLICK = 4199643119U;
+        static const AkUniqueID PLAY_DOORCREAKING = 1742799878U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_IMPACTS = 2947295567U;
+        static const AkUniqueID PLAY_LIGHTS = 2077168841U;
     } // namespace EVENTS
 
     namespace SWITCHES

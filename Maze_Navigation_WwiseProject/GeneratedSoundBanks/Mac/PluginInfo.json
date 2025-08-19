@@ -18,11 +18,25 @@
     "StaticLib": "AkRoomVerbFX"
    },
    {
+    "LibName": "Wwise Flanger",
+    "LibId": "8192003",
+    "Type": "Effect",
+    "DLL": "AkFlanger",
+    "StaticLib": "AkFlangerFX"
+   },
+   {
     "LibName": "Wwise Convolution Reverb",
     "LibId": "8323075",
     "Type": "Effect",
     "DLL": "AkConvolutionReverb",
     "StaticLib": "AkConvolutionReverbFX"
+   },
+   {
+    "LibName": "Wwise Tremolo",
+    "LibId": "8585219",
+    "Type": "Effect",
+    "DLL": "AkTremolo",
+    "StaticLib": "AkTremoloFX"
    },
    {
     "LibName": "Wwise Reflect",
@@ -42,6 +56,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{75A8355B-533E-AEB9-7142-3CFAA869FDC6}"
+  "FileHash": "{017438A4-7BBA-04D8-7C3C-1B30A5436670}"
  }
 }

@@ -3,10 +3,13 @@ using UnityEngine;
 
 public class OnEnterDoor : MonoBehaviour
 {
+    // NEW: A public variable to hold our Wwise sound event.
+    public AK.Wwise.Event DoorCreakEvent;
+
     private bool shouldOpen = false;
     private Transform door;
-    public float openAngle = -75f;  // target Y angle
-    public float rotationSpeed = 50f; // degrees per second
+    public float openAngle = -75f;
+    public float rotationSpeed = 50f;
 
     void Start()
     {
@@ -17,7 +20,14 @@ public class OnEnterDoor : MonoBehaviour
     {
         if (other.gameObject.GetComponentInParent<Senmag_HapticCursor>() || other.CompareTag("Door"))
         {
-            shouldOpen = true;
+            // NEW: Check if the door isn't already opening before playing the sound.
+            if (!shouldOpen)
+            {
+                // NEW: Tell Wwise to play the sound from this door's location.
+                DoorCreakEvent.Post(gameObject);
+
+                shouldOpen = true;
+            }
         }
     }
 
@@ -25,13 +35,8 @@ public class OnEnterDoor : MonoBehaviour
     {
         if (shouldOpen)
         {
-            // Current rotation
             Quaternion currentRotation = gameObject.transform.localRotation;
-
-            // Target rotation (-75f on Y)
             Quaternion targetRotation = Quaternion.Euler(0, openAngle, 0);
-
-            // Rotate smoothly towards target
             gameObject.transform.localRotation = Quaternion.RotateTowards(currentRotation, targetRotation, rotationSpeed * Time.deltaTime);
         }
     }
