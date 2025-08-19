@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4199643119	Play_CaneClick			\Default Work Unit\Play_CaneClick	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	52442795	Binaural			\Default Work Unit\Master Audio Bus\Binaural	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1563284185	Hallway04_Ambi			\Default Work Unit\Master Audio Bus\Binaural\Hallway04_Ambi	
+	2367436384	Hallway03_Ambi			\Default Work Unit\Master Audio Bus\Binaural\Hallway03_Ambi	
+	3065570235	Hallway02_Ambi			\Default Work Unit\Master Audio Bus\Binaural\Hallway02_Ambi	
+	3699044378	Hallway01_Ambi			\Default Work Unit\Master Audio Bus\Binaural\Hallway01_Ambi	
+
+Effect plug-ins	ID	Name	Type				Notes
+	101213727	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	276072529	Submarine1_Bunk_9m_Ambix_o3	Wwise Convolution Reverb			Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.
+	280566278	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	454850457	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	836258812	Club1_12m_Ambix_o3	Wwise Convolution Reverb			Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.
+	986540880	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	2787981274	Church4_Gallery_Ambix_o3	Wwise Convolution Reverb			Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.
+	3341797927	Alley_Long_Smooth_70m_HOA3_01	Wwise Convolution Reverb			Impulse response created by BOOM Library. © 2023 BOOM Library. All rights reserved.
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	304588199	CaneClick	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\CE\{CE5E529E-A398-44F5-B358-D2B4B5B24D54}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CaneClick		21484
+
+Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
+	132888797	Alley_Long_Smooth_70m_HOA3_01	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\AE\{AEA48C80-D4A0-7529-DC96-F80443508109}.wem	Wwise Convolution Reverb (Shared)	\Effects\BOOM Library IR - F&S - HOA3, FOA, Quad & Stereo\BOOM Library IR - F&S\HOA3\Alley Long\Alley_Long_Smooth_70m_HOA3_01	Impulse response created by BOOM Library. © 2023 BOOM Library. All rights reserved.	1650928
+	530005605	Submarine1_Bunk_9m_Ambix_o3	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\00\{00E5B09A-1474-B9A6-285E-2C8697BFD1BB}.wem	Wwise Convolution Reverb (Shared)	\Effects\BOOM Library IR - R&S - HOA\BOOM Library IR - R&S\HOA\Submarine\Submarine1_Bunk_9m_Ambix_o3	Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.	658592
+	571434554	Church4_Gallery_Ambix_o3	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\D3\{D3F8B45E-9395-AD72-4AA4-4897C078D08C}.wem	Wwise Convolution Reverb (Shared)	\Effects\BOOM Library IR - R&S - HOA\BOOM Library IR - R&S\HOA\Church Historic 03\Church4_Gallery_Ambix_o3	Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.	3086592
+	1064689600	Club1_12m_Ambix_o3	C:\Unity\Maze_Navigation\Maze_Navigation_WwiseProject\.cache\20\{20B92A84-4DC9-B479-FDC2-5DA9791BE9B9}.wem	Wwise Convolution Reverb (Shared)	\Effects\BOOM Library IR - R&S - HOA\BOOM Library IR - R&S\HOA\Club\Club1_12m_Ambix_o3	Impulse responses created by BOOM Library. © 2021 BOOM Library. All rights reserved.	1309872
+
