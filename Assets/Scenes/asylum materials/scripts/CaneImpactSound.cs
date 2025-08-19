@@ -5,13 +5,16 @@ using UnityEngine;
 public class CaneImpactSound : MonoBehaviour
 {
 
-    public GameObject senmagWorkspace;
+    private GameObject senmagWorkspace;
     private GameObject defaultCursor;
 
     private bool firstTime = false;
 
 
-    
+    private void Start()
+    {
+        senmagWorkspace = GameObject.Find("SenmagWorkspace");
+    }
 
 
     [Header("Wwise")]
