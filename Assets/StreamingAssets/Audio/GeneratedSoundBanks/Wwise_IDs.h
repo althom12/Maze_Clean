@@ -17,6 +17,21 @@ namespace AK
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
     } // namespace EVENTS
 
+    namespace SWITCHES
+    {
+        namespace SURFACES
+        {
+            static const AkUniqueID GROUP = 3714303081U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BAG = 513390133U;
+                static const AkUniqueID METAL = 2473969246U;
+            } // namespace SWITCH
+        } // namespace SURFACES
+
+    } // namespace SWITCHES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

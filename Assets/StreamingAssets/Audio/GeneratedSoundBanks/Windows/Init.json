@@ -292,6 +292,28 @@
       }
      }
     ],
+    "SwitchGroups": [
+     {
+      "Id": "3714303081",
+      "Name": "Surfaces",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces",
+      "GUID": "{A966B558-3575-4764-94A6-9BBF36AA1F79}",
+      "Switches": [
+       {
+        "Id": "513390133",
+        "Name": "Bag",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Bag",
+        "GUID": "{277223D1-B06F-4B54-829D-4A324385B2FF}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Metal",
+        "GUID": "{61F1EBE5-75CB-4952-A31B-A4F09EEDA37F}"
+       }
+      ]
+     }
+    ],
     "AcousticTextures": [
      {
       "Id": "504532776",
@@ -771,6 +793,6 @@
     ]
    }
   ],
-  "FileHash": "{1D4A29A3-347A-A7D7-4523-785C58A2CF4A}"
+  "FileHash": "{9D9D164A-658D-8039-7615-C285E257765D}"
  }
 }
