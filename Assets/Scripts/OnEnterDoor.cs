@@ -13,7 +13,7 @@ public class OnEnterDoor : MonoBehaviour
 
     void Start()
     {
-        door = transform.GetChild(0).GetChild(0);
+        //door = transform.GetChild(0).GetChild(0);
     }
 
     private void OnTriggerEnter(Collider other)
