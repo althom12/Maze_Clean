@@ -11,6 +11,13 @@
     "StaticLib": "ResonanceAudioFX"
    },
    {
+    "LibName": "Wwise Parametric EQ",
+    "LibId": "6881283",
+    "Type": "Effect",
+    "DLL": "AkParametricEQ",
+    "StaticLib": "AkParametricEQFX"
+   },
+   {
     "LibName": "Wwise RoomVerb",
     "LibId": "7733251",
     "Type": "Effect",
@@ -56,6 +63,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{017438A4-7BBA-04D8-7C3C-1B30A5436670}"
+  "FileHash": "{295AEBA1-062E-853C-B9BE-C8AAE31ADB23}"
  }
 }

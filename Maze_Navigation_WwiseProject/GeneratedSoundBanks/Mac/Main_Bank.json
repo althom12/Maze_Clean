@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{74BBCA36-B18F-4BBF-A9BC-09C14BE267F4}",
     "Language": "SFX",
-    "Hash": "{7753FA66-40CA-BD07-8D9D-8F4D912C37D0}",
+    "Hash": "{3BABC59E-8AD7-67D3-2DDB-7B6FD695EEDF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Bank",
     "ShortName": "Main_Bank",
     "Path": "Main_Bank.bnk",
@@ -112,6 +112,14 @@
       "CachePath": "52/{528B7509-D456-A3DD-8B38-1B797921AEAA}.wem"
      },
      {
+      "Id": "689559896",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SwellingVoxCreepy.wav",
+      "CachePath": "E6/{E607E8D6-0FB7-E60B-76B1-05C76428714A}.wem"
+     },
+     {
       "Id": "1008703685",
       "Language": "SFX",
       "Streaming": "false",
@@ -161,6 +169,14 @@
        "GUID": "{05D13DF0-8289-4AD9-8A46-29BE4C413ECD}",
        "LibName": "Resonance Audio Renderer",
        "LibId": "6557955"
+      },
+      {
+       "Id": "482885406",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\SwellingVoxCreepy\\[Effect Slot [0]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "GUID": "{7167B2D7-0F9B-431C-8501-8C2C9E3E9C48}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
       },
       {
        "Id": "986540880",
@@ -379,6 +395,34 @@
         }
        ]
       }
+     },
+     {
+      "Id": "1876149510",
+      "Name": "Play_SwellingVoxCreepy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SwellingVoxCreepy",
+      "GUID": "{7B3C1977-C1C5-4D3D-BECC-CB65E9D07B57}",
+      "MaxAttenuation": "50",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "689559896"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "482885406"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "849258820",
+        "Name": "EarlyReflections",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\EarlyReflections",
+        "GUID": "{CF119142-9DCD-46EF-889F-838CC32889A0}"
+       }
+      ]
      }
     ],
     "Busses": [
@@ -493,6 +537,6 @@
     ]
    }
   ],
-  "FileHash": "{A54E864C-A809-ACE8-1E1C-4C4D0EBBF17D}"
+  "FileHash": "{39CCCC48-2F26-0840-B852-CD8C7F302872}"
  }
 }

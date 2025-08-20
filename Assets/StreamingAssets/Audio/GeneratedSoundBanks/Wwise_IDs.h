@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_IMPACTS = 2947295567U;
         static const AkUniqueID PLAY_LIGHTS = 2077168841U;
+        static const AkUniqueID PLAY_SWELLINGVOXCREEPY = 1876149510U;
     } // namespace EVENTS
 
     namespace SWITCHES
