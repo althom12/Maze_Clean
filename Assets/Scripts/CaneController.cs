@@ -193,7 +193,7 @@ public class CaneController : MonoBehaviour
 
         if (leftTrigger.action.WasPressedThisFrame() && !oneTime)
         {
-            cane.transform.GetChild(0).transform.position = leftHandModel.transform.position + new Vector3(0.3f, 0, 0.4f);
+            cane.transform.GetChild(0).transform.position = leftHandModel.transform.position + new Vector3(0.3f, -0.23f, 0.4f);
             //cane.transform.GetChild(0).transform.position = new Vector3(rightHandModel.transform.position.x, rightHandModel.transform.position.y, rightHandModel.transform.position.z);
             //cane.transform.GetChild(0).transform.localPosition = new Vector3(cane.transform.GetChild(0).transform.localPosition.x, cane.transform.GetChild(0).transform.localPosition.y, cane.transform.GetChild(0).transform.localPosition.z + 0.26f);
             oneTime = true;

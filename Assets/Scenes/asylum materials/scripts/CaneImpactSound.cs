@@ -6,6 +6,8 @@ public class CaneImpactSound : MonoBehaviour
     private GameObject defaultCursor;
     private bool firstTime = false;
 
+    private Senmag_stylusControl stylusControl;
+
     [Header("Wwise")]
     public AK.Wwise.Event ImpactEvent;
 
@@ -32,6 +34,7 @@ public class CaneImpactSound : MonoBehaviour
         if (!firstTime)
         {
             defaultCursor = senmagWorkspace.transform.GetChild(0).GetChild(1).gameObject;
+            stylusControl = defaultCursor.GetComponent<Senmag_stylusControl>();
             firstTime = true;
         }
 
@@ -40,11 +43,15 @@ public class CaneImpactSound : MonoBehaviour
         // Detect the transition: not colliding → colliding
         if (!wasColliding && isColliding)
         {
-            if (Time.time >= lastPlayTime + CooldownSeconds)
-            {
-                lastPlayTime = Time.time;
-                ImpactEvent.Post(defaultCursor);
-            }
+           
+          if (Time.time >= lastPlayTime + CooldownSeconds)
+           {
+                    lastPlayTime = Time.time;
+                    ImpactEvent.Post(defaultCursor);
+           }
+            
+
+
         }
 
         // Update previous state

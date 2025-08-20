@@ -11,6 +11,8 @@ public class OnEnterDoor : MonoBehaviour
     public float openAngle = -75f;
     public float rotationSpeed = 50f;
 
+   
+
     void Start()
     {
         //door = transform.GetChild(0).GetChild(0);
