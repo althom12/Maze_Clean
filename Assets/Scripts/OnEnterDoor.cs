@@ -6,7 +6,7 @@ public class OnEnterDoor : MonoBehaviour
     // NEW: A public variable to hold our Wwise sound event.
     public AK.Wwise.Event DoorCreakEvent;
 
-    private bool shouldOpen = false;
+    public bool shouldOpen = false;
     private Transform door;
     public float openAngle = -75f;
     public float rotationSpeed = 50f;
