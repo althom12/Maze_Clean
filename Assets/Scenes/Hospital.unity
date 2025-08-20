@@ -18441,7 +18441,7 @@ GameObject:
   - component: {fileID: 590134539}
   - component: {fileID: 590134538}
   - component: {fileID: 590134537}
-  - component: {fileID: 590134536}
+  - component: {fileID: 590134541}
   m_Layer: 0
   m_Name: DoorOpenerTrigger
   m_TagString: Untagged
@@ -18449,19 +18449,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &590134536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590134535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40e17ca0cd36b784ea481f047d638b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enterTrigger: 0
 --- !u!65 &590134537
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18548,6 +18535,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &590134541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590134535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbc2a4b99aa67b42920dccbf15d96d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterTrigger: 0
 --- !u!1001 &594914138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60160,7 +60160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   caneController: {fileID: 6483399070937731690}
   planeRend: {fileID: 128365818}
-  doorOpener: {fileID: 590134536}
+  doorOpener: {fileID: 0}
   weighingScale: {fileID: 1524219870231159827}
   doorLeft: {fileID: 5660690160712472053}
   doorRight: {fileID: 5660690161428364956}
@@ -65089,7 +65089,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2573269032146215340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65479,7 +65479,7 @@ MonoBehaviour:
   cursorInteractions:
   - stylusKeybind: 1
     stylusKeyActionType: 4
-    triggeredByPhysicsTouch: 0
+    triggeredByPhysicsTouch: 1
     triggeredByPhysicsPress: 0
     pressThreshold: 0
     action: 3
@@ -68945,12 +68945,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorInteractions:
-  - stylusKeybind: 1
-    stylusKeyActionType: 4
-    triggeredByPhysicsTouch: 0
+  - stylusKeybind: 0
+    stylusKeyActionType: 2
+    triggeredByPhysicsTouch: 1
     triggeredByPhysicsPress: 0
     pressThreshold: 0
-    action: 3
+    action: 2
     buttonStateLatch: 0
   useCollisions: 1
   useTriggers: 1
@@ -70510,7 +70510,7 @@ MonoBehaviour:
   - stylusKeybind: 1
     stylusKeyActionType: 4
     triggeredByPhysicsTouch: 0
-    triggeredByPhysicsPress: 0
+    triggeredByPhysicsPress: 1
     pressThreshold: 0
     action: 3
     buttonStateLatch: 0

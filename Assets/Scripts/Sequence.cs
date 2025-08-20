@@ -6,9 +6,9 @@ public class Sequence : MonoBehaviour
 {
     public GameObject caneController;
     public Renderer planeRend;
-    public DoorOpenerTrigger doorOpener;
+    public OpenDoor doorOpener;
     public WeighingScale weighingScale;
-    private bool openDoor = false;
+    //private bool openDoor = false;
     public GameObject doorLeft, doorRight;
 
     private bool startFade = false;
