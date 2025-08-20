@@ -26,6 +26,11 @@ public class CaneController : MonoBehaviour
     public GameObject xrOrigin;
     private GameObject xrCamera;
 
+    //private Quaternion defaultCursorRotation;
+    //private Quaternion deviceLocationRotation;
+    private Vector3 defaultCursorRotation;
+    private Vector3 deviceLocationRotation;
+
     public float moveSpeed = 3;
     public float rotationSpeed = 60;
 
@@ -84,6 +89,8 @@ public class CaneController : MonoBehaviour
         {
             defaultCursor = senmagWorkspace.transform.GetChild(0).GetChild(1).gameObject;
             deviceLocation = senmagWorkspace.transform.GetChild(0).GetChild(0).gameObject;
+            defaultCursorRotation = defaultCursor.transform.localEulerAngles;
+            deviceLocationRotation = deviceLocation.transform.localEulerAngles;
             //defaultCursor.GetComponent<Senmag_stylusControl>().defaultTool = null;
             defaultCursor.GetComponent<Senmag_stylusControl>().defaultTool = canePrefab;
 
@@ -110,7 +117,8 @@ public class CaneController : MonoBehaviour
         }
 
 
-
+        //defaultCursor.transform.localEulerAngles = defaultCursorRotation;
+        //deviceLocation.transform.localEulerAngles = deviceLocationRotation;
         /* Cane Smooth Rotation */
         //float deltaY = cane.transform.GetChild(0).position.y - lastY;
 
