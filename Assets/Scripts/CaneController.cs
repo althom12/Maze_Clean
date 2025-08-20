@@ -63,7 +63,7 @@ public class CaneController : MonoBehaviour
     void Update()
     {
 
-        if (senmagWorkspace.transform.GetChild(0) == null || senmagWorkspace.transform.childCount == 0)
+        if (senmagWorkspace.transform.GetChild(0) == null || senmagWorkspace.transform.GetChild(0).GetChild(0) == null || senmagWorkspace.transform.childCount == 0)
         {
             return;
         }
