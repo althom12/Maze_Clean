@@ -38664,7 +38664,7 @@ MonoBehaviour:
   AcousticTextures:
   - idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: a2dc57d3f5094a64c9493643ba27c4ad,
+    WwiseObjectReference: {fileID: 11400000, guid: 393149187fd09164394104b19c551707,
       type: 2}
   TransmissionLossValues:
   - 1
@@ -61655,7 +61655,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2088359094
 Transform:
   m_ObjectHideFlags: 0
